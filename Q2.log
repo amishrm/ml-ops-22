@@ -1,0 +1,300 @@
+---------------------------------------------------------------------
+New resized image shape:  (1797, 4, 4) 
+
+Model Training in progress..................
+
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 0.2 ] ===> Dev Accuracy : 0.69 , Test Accuracy : 0.66 
+[ Gamma: 0.005, C: 0.3 ] ===> Dev Accuracy : 0.89 , Test Accuracy : 0.87 
+[ Gamma: 0.005, C: 0.7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.95 
+[ Gamma: 0.005, C: 1 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.96 
+[ Gamma: 0.005, C: 3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.96 
+[ Gamma: 0.005, C: 5 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.96 
+[ Gamma: 0.005, C: 7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.96 
+[ Gamma: 0.005, C: 10 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.96 
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 0.2 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.97 
+[ Gamma: 0.0005, C: 0.3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.97 
+[ Gamma: 0.0005, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 1 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 0.2 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.94 
+[ Gamma: 0.0001, C: 0.3 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.94 
+[ Gamma: 0.0001, C: 0.7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.97 
+[ Gamma: 0.0001, C: 1 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.97 
+[ Gamma: 0.0001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+
+
+------------------Best Results ----------------------------------
+{'val_accuract: ': 0.99, 'Test_accuracy: ': 0.98}
+
+----------------------------------------------------------------
+Best Parms Gamma: 0.001 , C: 0.2
+
+------------------------- Report ---------------------------
+    image Size Fraction        Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0                   0.5   Gamma: 0.001, C: 0.2            0.99          0.99           0.98
+1                   0.5   Gamma: 0.001, C: 0.3            1.00          0.99           0.98
+2                   0.5   Gamma: 0.001, C: 0.7            1.00          0.99           0.98
+3                   0.5     Gamma: 0.001, C: 1            1.00          0.99           0.98
+4                   0.5     Gamma: 0.001, C: 3            1.00          0.98           0.98
+5                   0.5     Gamma: 0.001, C: 5            1.00          0.98           0.98
+6                   0.5     Gamma: 0.001, C: 7            1.00          0.98           0.98
+7                   0.5    Gamma: 0.001, C: 10            1.00          0.98           0.98
+8                   0.5   Gamma: 0.005, C: 0.2            0.91          0.69           0.66
+9                   0.5   Gamma: 0.005, C: 0.3            0.99          0.89           0.87
+10                  0.5   Gamma: 0.005, C: 0.7            1.00          0.97           0.95
+11                  0.5     Gamma: 0.005, C: 1            1.00          0.97           0.96
+12                  0.5     Gamma: 0.005, C: 3            1.00          0.97           0.96
+13                  0.5     Gamma: 0.005, C: 5            1.00          0.97           0.96
+14                  0.5     Gamma: 0.005, C: 7            1.00          0.97           0.96
+15                  0.5    Gamma: 0.005, C: 10            1.00          0.97           0.96
+16                  0.5   Gamma: 0.001, C: 0.2            0.99          0.99           0.98
+17                  0.5   Gamma: 0.001, C: 0.3            1.00          0.99           0.98
+18                  0.5   Gamma: 0.001, C: 0.7            1.00          0.99           0.98
+19                  0.5     Gamma: 0.001, C: 1            1.00          0.99           0.98
+20                  0.5     Gamma: 0.001, C: 3            1.00          0.98           0.98
+21                  0.5     Gamma: 0.001, C: 5            1.00          0.98           0.98
+22                  0.5     Gamma: 0.001, C: 7            1.00          0.98           0.98
+23                  0.5    Gamma: 0.001, C: 10            1.00          0.98           0.98
+24                  0.5  Gamma: 0.0005, C: 0.2            0.98          0.98           0.97
+25                  0.5  Gamma: 0.0005, C: 0.3            0.99          0.98           0.97
+26                  0.5  Gamma: 0.0005, C: 0.7            1.00          0.99           0.98
+27                  0.5    Gamma: 0.0005, C: 1            1.00          0.98           0.98
+28                  0.5    Gamma: 0.0005, C: 3            1.00          0.98           0.98
+29                  0.5    Gamma: 0.0005, C: 5            1.00          0.98           0.98
+30                  0.5    Gamma: 0.0005, C: 7            1.00          0.98           0.98
+31                  0.5   Gamma: 0.0005, C: 10            1.00          0.98           0.98
+32                  0.5  Gamma: 0.0001, C: 0.2            0.94          0.97           0.94
+33                  0.5  Gamma: 0.0001, C: 0.3            0.95          0.96           0.94
+34                  0.5  Gamma: 0.0001, C: 0.7            0.97          0.97           0.97
+35                  0.5    Gamma: 0.0001, C: 1            0.98          0.97           0.97
+36                  0.5    Gamma: 0.0001, C: 3            0.99          0.98           0.98
+37                  0.5    Gamma: 0.0001, C: 5            1.00          0.98           0.98
+38                  0.5    Gamma: 0.0001, C: 7            1.00          0.98           0.98
+39                  0.5   Gamma: 0.0001, C: 10            1.00          0.98           0.98
+
+------------------------- Best Model Report --------------------------
+   image Size Fraction       Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0                  0.5  Gamma: 0.001, C: 0.2            0.99          0.99           0.98
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+New resized image shape:  (1797, 12, 12) 
+
+Model Training in progress..................
+
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 0.2 ] ===> Dev Accuracy : 0.72 , Test Accuracy : 0.72 
+[ Gamma: 0.005, C: 0.3 ] ===> Dev Accuracy : 0.83 , Test Accuracy : 0.87 
+[ Gamma: 0.005, C: 0.7 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 1 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 5 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 10 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 0.2 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 0.3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 5 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 10 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 0.2 ] ===> Dev Accuracy : 0.9 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 0.3 ] ===> Dev Accuracy : 0.92 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 0.7 ] ===> Dev Accuracy : 0.96 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 1 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 3 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.99 
+
+
+------------------Best Results ----------------------------------
+{'val_accuract: ': 0.98, 'Test_accuracy: ': 0.99}
+
+----------------------------------------------------------------
+Best Parms Gamma: 0.001 , C: 0.2
+
+------------------------- Report ---------------------------
+    image Size Fraction        Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0                   1.5   Gamma: 0.001, C: 0.2            0.99          0.98           0.99
+1                   1.5   Gamma: 0.001, C: 0.3            0.99          0.99           0.99
+2                   1.5   Gamma: 0.001, C: 0.7            1.00          0.99           0.99
+3                   1.5     Gamma: 0.001, C: 1            1.00          0.99           0.99
+4                   1.5     Gamma: 0.001, C: 3            1.00          0.99           0.99
+5                   1.5     Gamma: 0.001, C: 5            1.00          0.99           0.99
+6                   1.5     Gamma: 0.001, C: 7            1.00          0.99           0.99
+7                   1.5    Gamma: 0.001, C: 10            1.00          0.99           0.99
+8                   1.5   Gamma: 0.005, C: 0.2            0.93          0.72           0.72
+9                   1.5   Gamma: 0.005, C: 0.3            0.99          0.83           0.87
+10                  1.5   Gamma: 0.005, C: 0.7            1.00          0.96           0.99
+11                  1.5     Gamma: 0.005, C: 1            1.00          0.97           0.99
+12                  1.5     Gamma: 0.005, C: 3            1.00          0.97           0.99
+13                  1.5     Gamma: 0.005, C: 5            1.00          0.97           0.99
+14                  1.5     Gamma: 0.005, C: 7            1.00          0.97           0.99
+15                  1.5    Gamma: 0.005, C: 10            1.00          0.97           0.99
+16                  1.5   Gamma: 0.001, C: 0.2            0.99          0.98           0.99
+17                  1.5   Gamma: 0.001, C: 0.3            0.99          0.99           0.99
+18                  1.5   Gamma: 0.001, C: 0.7            1.00          0.99           0.99
+19                  1.5     Gamma: 0.001, C: 1            1.00          0.99           0.99
+20                  1.5     Gamma: 0.001, C: 3            1.00          0.99           0.99
+21                  1.5     Gamma: 0.001, C: 5            1.00          0.99           0.99
+22                  1.5     Gamma: 0.001, C: 7            1.00          0.99           0.99
+23                  1.5    Gamma: 0.001, C: 10            1.00          0.99           0.99
+24                  1.5  Gamma: 0.0005, C: 0.2            0.98          0.96           0.99
+25                  1.5  Gamma: 0.0005, C: 0.3            0.99          0.98           0.99
+26                  1.5  Gamma: 0.0005, C: 0.7            1.00          0.99           0.99
+27                  1.5    Gamma: 0.0005, C: 1            1.00          0.99           0.99
+28                  1.5    Gamma: 0.0005, C: 3            1.00          0.99           0.99
+29                  1.5    Gamma: 0.0005, C: 5            1.00          0.99           0.99
+30                  1.5    Gamma: 0.0005, C: 7            1.00          0.99           0.99
+31                  1.5   Gamma: 0.0005, C: 10            1.00          0.99           0.99
+32                  1.5  Gamma: 0.0001, C: 0.2            0.94          0.90           0.98
+33                  1.5  Gamma: 0.0001, C: 0.3            0.95          0.92           0.98
+34                  1.5  Gamma: 0.0001, C: 0.7            0.97          0.96           0.99
+35                  1.5    Gamma: 0.0001, C: 1            0.98          0.97           0.99
+36                  1.5    Gamma: 0.0001, C: 3            0.99          0.99           0.99
+37                  1.5    Gamma: 0.0001, C: 5            0.99          0.98           0.99
+38                  1.5    Gamma: 0.0001, C: 7            0.99          0.98           0.99
+39                  1.5   Gamma: 0.0001, C: 10            1.00          0.98           0.99
+
+------------------------- Best Model Report --------------------------
+   image Size Fraction       Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0                  1.5  Gamma: 0.001, C: 0.2            0.99          0.98           0.99
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+New resized image shape:  (1797, 16, 16) 
+
+Model Training in progress..................
+
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.97 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.005, C: 0.2 ] ===> Dev Accuracy : 0.62 , Test Accuracy : 0.67 
+[ Gamma: 0.005, C: 0.3 ] ===> Dev Accuracy : 0.81 , Test Accuracy : 0.83 
+[ Gamma: 0.005, C: 0.7 ] ===> Dev Accuracy : 0.95 , Test Accuracy : 0.96 
+[ Gamma: 0.005, C: 1 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 3 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 5 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.005, C: 10 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.2 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.97 
+[ Gamma: 0.001, C: 0.3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 0.7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.98 
+[ Gamma: 0.001, C: 1 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.001, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 0.2 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.96 
+[ Gamma: 0.0005, C: 0.3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.96 
+[ Gamma: 0.0005, C: 0.7 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 1 ] ===> Dev Accuracy : 0.99 , Test Accuracy : 0.98 
+[ Gamma: 0.0005, C: 3 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 5 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 7 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0005, C: 10 ] ===> Dev Accuracy : 1.0 , Test Accuracy : 0.99 
+[ Gamma: 0.0001, C: 0.2 ] ===> Dev Accuracy : 0.93 , Test Accuracy : 0.93 
+[ Gamma: 0.0001, C: 0.3 ] ===> Dev Accuracy : 0.95 , Test Accuracy : 0.94 
+[ Gamma: 0.0001, C: 0.7 ] ===> Dev Accuracy : 0.97 , Test Accuracy : 0.96 
+[ Gamma: 0.0001, C: 1 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.96 
+[ Gamma: 0.0001, C: 3 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.97 
+[ Gamma: 0.0001, C: 5 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.97 
+[ Gamma: 0.0001, C: 7 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+[ Gamma: 0.0001, C: 10 ] ===> Dev Accuracy : 0.98 , Test Accuracy : 0.98 
+
+
+------------------Best Results ----------------------------------
+{'val_accuract: ': 1.0, 'Test_accuracy: ': 0.99}
+
+----------------------------------------------------------------
+Best Parms Gamma: 0.001 , C: 1
+
+------------------------- Report ---------------------------
+    image Size Fraction        Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0                     2   Gamma: 0.001, C: 0.2            0.99          0.99           0.97
+1                     2   Gamma: 0.001, C: 0.3            0.99          1.00           0.98
+2                     2   Gamma: 0.001, C: 0.7            1.00          1.00           0.98
+3                     2     Gamma: 0.001, C: 1            1.00          1.00           0.99
+4                     2     Gamma: 0.001, C: 3            1.00          1.00           0.99
+5                     2     Gamma: 0.001, C: 5            1.00          1.00           0.99
+6                     2     Gamma: 0.001, C: 7            1.00          1.00           0.99
+7                     2    Gamma: 0.001, C: 10            1.00          1.00           0.99
+8                     2   Gamma: 0.005, C: 0.2            0.93          0.62           0.67
+9                     2   Gamma: 0.005, C: 0.3            0.99          0.81           0.83
+10                    2   Gamma: 0.005, C: 0.7            1.00          0.95           0.96
+11                    2     Gamma: 0.005, C: 1            1.00          0.97           0.98
+12                    2     Gamma: 0.005, C: 3            1.00          0.97           0.98
+13                    2     Gamma: 0.005, C: 5            1.00          0.97           0.98
+14                    2     Gamma: 0.005, C: 7            1.00          0.97           0.98
+15                    2    Gamma: 0.005, C: 10            1.00          0.97           0.98
+16                    2   Gamma: 0.001, C: 0.2            0.99          0.99           0.97
+17                    2   Gamma: 0.001, C: 0.3            0.99          1.00           0.98
+18                    2   Gamma: 0.001, C: 0.7            1.00          1.00           0.98
+19                    2     Gamma: 0.001, C: 1            1.00          1.00           0.99
+20                    2     Gamma: 0.001, C: 3            1.00          1.00           0.99
+21                    2     Gamma: 0.001, C: 5            1.00          1.00           0.99
+22                    2     Gamma: 0.001, C: 7            1.00          1.00           0.99
+23                    2    Gamma: 0.001, C: 10            1.00          1.00           0.99
+24                    2  Gamma: 0.0005, C: 0.2            0.98          0.98           0.96
+25                    2  Gamma: 0.0005, C: 0.3            0.99          1.00           0.96
+26                    2  Gamma: 0.0005, C: 0.7            1.00          0.99           0.98
+27                    2    Gamma: 0.0005, C: 1            1.00          0.99           0.98
+28                    2    Gamma: 0.0005, C: 3            1.00          1.00           0.99
+29                    2    Gamma: 0.0005, C: 5            1.00          1.00           0.99
+30                    2    Gamma: 0.0005, C: 7            1.00          1.00           0.99
+31                    2   Gamma: 0.0005, C: 10            1.00          1.00           0.99
+32                    2  Gamma: 0.0001, C: 0.2            0.95          0.93           0.93
+33                    2  Gamma: 0.0001, C: 0.3            0.95          0.95           0.94
+34                    2  Gamma: 0.0001, C: 0.7            0.97          0.97           0.96
+35                    2    Gamma: 0.0001, C: 1            0.98          0.98           0.96
+36                    2    Gamma: 0.0001, C: 3            0.99          0.98           0.97
+37                    2    Gamma: 0.0001, C: 5            1.00          0.98           0.97
+38                    2    Gamma: 0.0001, C: 7            1.00          0.98           0.98
+39                    2   Gamma: 0.0001, C: 10            1.00          0.98           0.98
+
+------------------------- Best Model Report --------------------------
+   image Size Fraction     Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0                    2  Gamma: 0.001, C: 1             1.0           1.0           0.99
+---------------------------------------------------------------------
