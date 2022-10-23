@@ -19,6 +19,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 import pandas as pd
 import pytest
+import numpy as np
 
 pd.reset_option('display.max_rows')
 pd.set_option('expand_frame_repr', False)
@@ -55,27 +56,33 @@ X_dev, X_test, y_dev, y_test = train_test_split(X_dev, y_dev, test_size=dev_fr/d
 gamm = 0.001
 cost = 3
 
+clf = svm.SVC(gamma=gamm,C=cost)
+clf.fit(X_train, y_train)
+
+predicted_train = clf.predict(X_train)
+predicted_dev = clf.predict(X_dev)
+predicted_test = clf.predict(X_test)
+
+acc_train=round(accuracy_score(y_train, predicted_train),2)
+acc_val=round(accuracy_score(y_dev, predicted_dev),2)
+acc_test=round(accuracy_score(y_test, predicted_test),2)
+
+print('Train Accuracy: ', acc_train)
+
+print('Validation Accuracy: ', acc_val)
+
+print('Testing set Accuracy: ',acc_test)
+#Q3
+print(len(np.unique(predicted_test)))
+print(len(np.unique(y_test)))
 try:
-    clf = svm.SVC(gamma=gamm,C=cost)
-    clf.fit(X_train, y_train)
-
-    predicted_train = clf.predict(X_train)
-    predicted_dev = clf.predict(X_dev)
-    predicted_test = clf.predict(X_test)
-
-    acc_train=round(accuracy_score(y_train, predicted_train),2)
-    acc_val=round(accuracy_score(y_dev, predicted_dev),2)
-    acc_test=round(accuracy_score(y_test, predicted_test),2)
-
-    print('Train Accuracy: ', acc_train)
-
-    print('Validation Accuracy: ', acc_val)
-
-    print('Testing set Accuracy: ',acc_test)
-    #Q3
-    assert acc_test <= 1, "a classifier not completely biased to predicting all samples in to one class"
-    #Q4
-    assert acc_test == 1, "a classifier predicts all classes in other words given n number of test samples, the union set of all the predicted labels is same as set of all groundtruth labels"
-
+    print("Q3")
+    assert len(np.unique(predicted_test)) > 1, "a classifier not completely biased to predicting all samples in to one class"
+except AssertionError as msg:
+    print(msg)
+#Q4
+try:
+    print("Q4")
+    assert len(np.unique(predicted_test)) == len(np.unique(y_test)), "a classifier predicts all classes in other words given n number of test samples, the union set of all the predicted labels is same as set of all groundtruth labels"
 except AssertionError as msg:
     print(msg)
