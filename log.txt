@@ -1,0 +1,560 @@
+Model Training in progress..................
+
+Train SVM model and below are results..
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.005}, Train Accuracy: 0.92, Test Accuracy: 0.75
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.0001}, Train Accuracy: 0.94, Test Accuracy: 0.91
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.005}, Train Accuracy: 0.99, Test Accuracy: 0.89
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.0001}, Train Accuracy: 0.95, Test Accuracy: 0.92
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.97
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.0005}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.0001}, Train Accuracy: 0.97, Test Accuracy: 0.96
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 1, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 1, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 1, 'gamma': 0.0001}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 3, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 3, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 3, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 5, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 5, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 5, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 7, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 7, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 10, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 10, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'C': 10, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.005}, Train Accuracy: 0.84, Test Accuracy: 0.61
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.0001}, Train Accuracy: 0.95, Test Accuracy: 0.96
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.005}, Train Accuracy: 0.98, Test Accuracy: 0.77
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.0005}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.0001}, Train Accuracy: 0.96, Test Accuracy: 0.97
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.96
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.0005}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.0001}, Train Accuracy: 0.97, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 1, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.97
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 1, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 1, 'gamma': 0.0001}, Train Accuracy: 0.98, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 3, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.97
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 3, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 3, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 5, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.97
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 5, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 5, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.97
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 7, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 7, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 10, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.97
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 10, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'C': 10, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.97
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.005}, Train Accuracy: 0.79, Test Accuracy: 0.44
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.97
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.2, 'gamma': 0.0001}, Train Accuracy: 0.93, Test Accuracy: 0.93
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.005}, Train Accuracy: 0.95, Test Accuracy: 0.69
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.98
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.3, 'gamma': 0.0001}, Train Accuracy: 0.95, Test Accuracy: 0.94
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.92
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 0.7, 'gamma': 0.0001}, Train Accuracy: 0.97, Test Accuracy: 0.97
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 1, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.94
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 1, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 1, 'gamma': 0.0001}, Train Accuracy: 0.98, Test Accuracy: 0.98
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 3, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.96
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 3, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 3, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 5, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.96
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 5, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 5, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.96
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 7, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 7, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 10, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.96
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 10, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'C': 10, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.005}, Train Accuracy: 0.29, Test Accuracy: 0.18
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.0005}, Train Accuracy: 0.97, Test Accuracy: 0.97
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.0001}, Train Accuracy: 0.92, Test Accuracy: 0.91
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.005}, Train Accuracy: 0.75, Test Accuracy: 0.37
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.0001}, Train Accuracy: 0.94, Test Accuracy: 0.92
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.87
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.0005}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.0001}, Train Accuracy: 0.96, Test Accuracy: 0.96
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 1, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.91
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 1, 'gamma': 0.0005}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 1, 'gamma': 0.0001}, Train Accuracy: 0.97, Test Accuracy: 0.97
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 3, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.92
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 3, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 3, 'gamma': 0.0001}, Train Accuracy: 0.98, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 5, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.92
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 5, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 5, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.92
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 7, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 7, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 10, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.92
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 10, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.98
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'C': 10, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.005}, Train Accuracy: 0.56, Test Accuracy: 0.31
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.001}, Train Accuracy: 0.98, Test Accuracy: 0.97
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.0005}, Train Accuracy: 0.97, Test Accuracy: 0.96
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.2, 'gamma': 0.0001}, Train Accuracy: 0.93, Test Accuracy: 0.91
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.98, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.005}, Train Accuracy: 0.95, Test Accuracy: 0.58
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.001}, Train Accuracy: 0.98, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.0005}, Train Accuracy: 0.98, Test Accuracy: 0.98
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.3, 'gamma': 0.0001}, Train Accuracy: 0.95, Test Accuracy: 0.93
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.88
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.0005}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 0.7, 'gamma': 0.0001}, Train Accuracy: 0.97, Test Accuracy: 0.96
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 1, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.93
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 1, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 1, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 1, 'gamma': 0.0001}, Train Accuracy: 0.97, Test Accuracy: 0.96
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 3, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.94
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 3, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 3, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 3, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 5, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.94
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 5, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 5, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 5, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.98
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 7, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.94
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 7, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 7, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 7, 'gamma': 0.0001}, Train Accuracy: 0.99, Test Accuracy: 0.99
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 10, 'gamma': 0.005}, Train Accuracy: 1.0, Test Accuracy: 0.94
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 10, 'gamma': 0.001}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 10, 'gamma': 0.0005}, Train Accuracy: 1.0, Test Accuracy: 1.0
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'C': 10, 'gamma': 0.0001}, Train Accuracy: 1.0, Test Accuracy: 0.98
+********************Printing Best Result*********************
+   Run Split Ratio             Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0    1  (0.8, 0.1)  {'C': 0.3, 'gamma': 0.001}            0.99          0.99           0.99
+1    2  (0.7, 0.1)  {'C': 0.2, 'gamma': 0.001}            0.99          0.98           0.99
+2    3  (0.6, 0.1)  {'C': 0.3, 'gamma': 0.001}            0.99          0.97           0.99
+3    4  (0.4, 0.2)  {'C': 0.7, 'gamma': 0.001}            1.00          0.98           0.99
+4    5  (0.5, 0.2)    {'C': 3, 'gamma': 0.001}            1.00          0.99           1.00
+
+
+Train Decision Tree model and below are results..
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.69, Test Accuracy: 0.67
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.67, Test Accuracy: 0.66
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.65, Test Accuracy: 0.61
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.98, Test Accuracy: 0.76
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.98, Test Accuracy: 0.85
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.96, Test Accuracy: 0.88
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.85
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.85
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.9
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.84
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.88
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.72, Test Accuracy: 0.67
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.72, Test Accuracy: 0.73
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.68, Test Accuracy: 0.66
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.88
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.99, Test Accuracy: 0.88
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.99, Test Accuracy: 0.76
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.86
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.85
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.85
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.87
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.88
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.86
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.87
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.84
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.86
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.84
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 1, Split Ratio: (0.8,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.74, Test Accuracy: 0.63
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.71, Test Accuracy: 0.6
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.73, Test Accuracy: 0.68
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.97, Test Accuracy: 0.76
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.99, Test Accuracy: 0.81
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.98, Test Accuracy: 0.77
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.71
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.76, Test Accuracy: 0.73
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.75, Test Accuracy: 0.66
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.72, Test Accuracy: 0.7
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.99, Test Accuracy: 0.85
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.99, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.99, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.84
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.72
+Run: 2, Split Ratio: (0.7,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.6, Test Accuracy: 0.53
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.66, Test Accuracy: 0.54
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.72, Test Accuracy: 0.68
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.98, Test Accuracy: 0.74
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.99, Test Accuracy: 0.82
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.95, Test Accuracy: 0.73
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.71
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.72
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.71
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.7, Test Accuracy: 0.66
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.74, Test Accuracy: 0.66
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.73, Test Accuracy: 0.63
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.99, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.84
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.83
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 3, Split Ratio: (0.6,0.1), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.7, Test Accuracy: 0.62
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.7, Test Accuracy: 0.65
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.59, Test Accuracy: 0.53
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.99, Test Accuracy: 0.79
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.99, Test Accuracy: 0.71
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.99, Test Accuracy: 0.74
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.71
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.7
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.68, Test Accuracy: 0.57
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.77, Test Accuracy: 0.68
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.76, Test Accuracy: 0.71
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.99, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.99, Test Accuracy: 0.68
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.72
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.72
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.69
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 4, Split Ratio: (0.4,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.64, Test Accuracy: 0.58
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.72, Test Accuracy: 0.61
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.7, Test Accuracy: 0.61
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.97, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.97, Test Accuracy: 0.78
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.98, Test Accuracy: 0.74
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'gini', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.72
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto'}, Train Accuracy: 0.73, Test Accuracy: 0.62
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt'}, Train Accuracy: 0.7, Test Accuracy: 0.63
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2'}, Train Accuracy: 0.71, Test Accuracy: 0.65
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'auto'}, Train Accuracy: 0.97, Test Accuracy: 0.72
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'sqrt'}, Train Accuracy: 0.99, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2'}, Train Accuracy: 0.96, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 15, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.76
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 20, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.79
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 25, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 30, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.75
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 35, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.81
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 40, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.74
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.8
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.82
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 45, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.73
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'auto'}, Train Accuracy: 1.0, Test Accuracy: 0.78
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'sqrt'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+Run: 5, Split Ratio: (0.5,0.2), Hyper parameter: {'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2'}, Train Accuracy: 1.0, Test Accuracy: 0.77
+********************Printing Best Result*********************
+   Run Split Ratio                                    Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
+0    1  (0.8, 0.1)  {'criterion': 'gini', 'max_depth': 35, 'max_fe...            1.00          0.84           0.90
+1    2  (0.7, 0.1)  {'criterion': 'entropy', 'max_depth': 10, 'max...            0.99          0.81           0.85
+2    3  (0.6, 0.1)  {'criterion': 'entropy', 'max_depth': 10, 'max...            1.00          0.82           0.84
+3    4  (0.4, 0.2)  {'criterion': 'entropy', 'max_depth': 50, 'max...            1.00          0.71           0.81
+4    5  (0.5, 0.2)  {'criterion': 'entropy', 'max_depth': 35, 'max...            1.00          0.80           0.82
+
+
+**********SVM Stats************
+            Run  Train Accuracy  Dev Accuracy  Test Accuracy
+count  5.000000        5.000000      5.000000       5.000000
+mean   3.000000        0.994000      0.982000       0.992000
+std    1.581139        0.005477      0.008367       0.004472
+min    1.000000        0.990000      0.970000       0.990000
+25%    2.000000        0.990000      0.980000       0.990000
+50%    3.000000        0.990000      0.980000       0.990000
+75%    4.000000        1.000000      0.990000       0.990000
+max    5.000000        1.000000      0.990000       1.000000
+
+**********Decision Tree Stats************
+            Run  Train Accuracy  Dev Accuracy  Test Accuracy
+count  5.000000        5.000000      5.000000       5.000000
+mean   3.000000        0.998000      0.796000       0.844000
+std    1.581139        0.004472      0.050299       0.035071
+min    1.000000        0.990000      0.710000       0.810000
+25%    2.000000        1.000000      0.800000       0.820000
+50%    3.000000        1.000000      0.810000       0.840000
+75%    4.000000        1.000000      0.820000       0.850000
+max    5.000000        1.000000      0.840000       0.900000
+
+
+SVM, Mean Accuracy: 0.992, Standard Deviation of Accuracy: 0.004472135954999584
+
+
+Decision Tree, Mean Accuracy: 0.844, Standard Deviation of Accuracy: 0.035071355833500364
+
+
+**********Performance Metric for SVM and Decision Tree***********
+ Run      svm  decision_tree
+   1 0.990000       0.900000
+   2 0.990000       0.850000
+   3 0.990000       0.840000
+   4 0.990000       0.810000
+   5 1.000000       0.820000
+mean 0.992000       0.844000
+ std 0.004472       0.035071
