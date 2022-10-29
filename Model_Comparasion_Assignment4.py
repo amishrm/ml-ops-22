@@ -15,6 +15,7 @@ warnings.filterwarnings("ignore")
 
 pd.reset_option('display.max_rows')
 pd.set_option('expand_frame_repr', False)
+pd.set_option('display.max_colwidth', None)
 
 
 digits = datasets.load_digits()
