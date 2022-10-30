@@ -25,6 +25,8 @@
 | 75%    |  4.000000      |    1.000000   |     0.990000    |     0.990000 |
 | max     | 5.000000      |    1.000000   |     1.000000    |     0.990000 |
 
+#### Classifcation report for SVM
+
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        34
@@ -39,8 +41,8 @@
            9       1.00      0.95      0.97        37
 
     accuracy                           0.98       360
-   macro avg       0.98      0.98      0.98       360
-weighted avg       0.98      0.98      0.98       360
+    macro avg      0.98      0.98      0.98       360
+    weighted avg   0.98      0.98      0.98       360
 
 #### Best Result for Decision Tree
 
@@ -66,6 +68,8 @@ weighted avg       0.98      0.98      0.98       360
 | 75%   |   4.000000     |     1.000000    |    0.830000     |    0.860000 |
 | max   |   5.000000     |     1.000000    |    0.830000     |    0.870000 |
 
+#### Classifcation report for decision Tree model
+
               precision    recall  f1-score   support
 
            0       0.97      0.94      0.96        35
@@ -80,8 +84,8 @@ weighted avg       0.98      0.98      0.98       360
            9       0.58      0.51      0.54        37
 
     accuracy                           0.75       360
-   macro avg       0.75      0.75      0.74       360
-weighted avg       0.75      0.75      0.75       360
+    macro avg      0.75      0.75      0.74       360
+    weighted avg   0.75      0.75      0.75       360
 
 
 ### Performance Metric for SVM and Decision Tree
