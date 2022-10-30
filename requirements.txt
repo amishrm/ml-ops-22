@@ -3,3 +3,5 @@ scikit-image
 matplotlib
 pytest==7.1.3
 pandas
+tabulate
+IPython

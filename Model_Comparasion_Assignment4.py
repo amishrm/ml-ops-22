@@ -1,7 +1,7 @@
 # Author: Amit
 # Standard scientific Python imports
 import matplotlib.pyplot as plt
-
+from tabulate import tabulate
 # Import datasets, classifiers and performance metrics
 from sklearn import datasets, svm, metrics
 from sklearn.tree import DecisionTreeClassifier
@@ -11,6 +11,8 @@ import pandas as pd
 from sklearn.model_selection import ParameterGrid
 import numpy as np
 import warnings
+from IPython.display import display
+import json
 warnings.filterwarnings("ignore")
 
 pd.reset_option('display.max_rows')
@@ -42,6 +44,11 @@ def train_dev_test_split(X, y, split):
     X_dev, X_test, y_dev, y_test = train_test_split(X_dev, y_dev, test_size=dev_fr/dev_test_fr, shuffle=False)
 
     return X_train, y_train, X_dev, y_dev, X_test, y_test
+
+def printDataFrame(df):
+    md = tabulate(df, headers='keys', tablefmt='pipe')
+    md = md.replace('|    |','| %s |' % (df.index.name if df.index.name else 'x'))
+    display(md)
 
 def train(X, y, classifier, params, n_split = 5):
     best_result = pd.DataFrame()
@@ -77,8 +84,11 @@ def train(X, y, classifier, params, n_split = 5):
         final_df = results_df.sort_values(by=['Test Accuracy'], ascending=False).iloc[:1]
         best_result = best_result.append(final_df, ignore_index=True)
 
-    print("********************Printing Best Result*********************")   
-    print(best_result)
+        predict_test = clf.predict(X_test)
+        print(f"{metrics.classification_report(y_test, predict_test)}")
+
+    print("********************Printing Best Result*********************")  
+    printDataFrame(best_result) 
     return best_result
 
 print("Model Training in progress..................\n")
@@ -135,4 +145,4 @@ tempDf = pd.DataFrame.from_dict(stats)
 
 finalResult = pd.concat([finalResultDf, tempDf], ignore_index=True)
 
-print(finalResult.to_string(index=False))
+printDataFrame(finalResult)
