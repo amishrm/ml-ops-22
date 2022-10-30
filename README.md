@@ -1,8 +1,8 @@
 # Assignment 4
 
-Accuracy for SVM and Decision Tree Classifier for digit classification:
+### Accuracy for SVM and Decision Tree Classifier for digit classification:
 
-### ********************Printing Best Result for SVM*********************
+#### Best Result for SVM
    Run Split Ratio             Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
     1  (0.8, 0.1)  {'C': 0.3, 'gamma': 0.001}            0.99          0.99           0.99
     2  (0.7, 0.1)  {'C': 0.2, 'gamma': 0.001}            0.99          0.98           0.99
@@ -10,7 +10,7 @@ Accuracy for SVM and Decision Tree Classifier for digit classification:
     4  (0.4, 0.2)  {'C': 0.7, 'gamma': 0.001}            1.00          0.98           0.99
     5  (0.5, 0.2)    {'C': 3, 'gamma': 0.001}            1.00          0.99           1.00
 
-### ********************Printing Best Result for Decision Tree*********************
+#### Best Result for Decision Tree
 
    Run Split Ratio                                    Hyper parameter  Train Accuracy  Dev Accuracy  Test Accuracy
     1  (0.8, 0.1)  {'criterion': 'gini', 'max_depth': 35, 'max_fe...            1.00          0.84           0.90
@@ -19,7 +19,7 @@ Accuracy for SVM and Decision Tree Classifier for digit classification:
     4  (0.4, 0.2)  {'criterion': 'entropy', 'max_depth': 50, 'max...            1.00          0.71           0.81
     5  (0.5, 0.2)  {'criterion': 'entropy', 'max_depth': 35, 'max...            1.00          0.80           0.82
 
-### **********Performance Metric for SVM and Decision Tree***********
+### Performance Metric for SVM and Decision Tree
  Run      svm  decision_tree
    1        0.990000       0.900000
    2        0.990000       0.850000
