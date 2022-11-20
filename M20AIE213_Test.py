@@ -177,6 +177,7 @@ for n in range(n_cv):
 
         # PART: Get test set predictions
         # Predict the value of the digit on the test subset
+        print(best_model)
         predicted = best_model.predict(x_test)
         if not clf_name in results:
             results[clf_name]=[]    
